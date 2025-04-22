@@ -17,5 +17,6 @@ pathlib==1.0.1
 urllib3==2.0.6
 datetime==5.2
 
+python-dotenv==1.0.0
 # Note: Standard libraries like json, time, os, subprocess, zipfile, and traceback 
 # do not need to be installed as they come with Python's standard library 

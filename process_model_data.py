@@ -30,10 +30,10 @@ load_dotenv()
 # ===== การตั้งค่า =====
 # MongoDB settings
 MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://edwardbat00147:O5DrPGWlRuaUKU4g@aqi-senors-rf.xk5y8sk.mongodb.net/")
-SOURCE_DB = "test"
+SOURCE_DB = "CPE495final"
 SOURCE_COLLECTION = "sensordatas"
-TARGET_DB = "test"
-TARGET_COLLECTION = "test-results"
+TARGET_DB = "CPE495final"
+TARGET_COLLECTION = "modelresults_engvers"
 
 # Model settings
 MODEL_PATH = os.getenv("MODEL_PATH", "random_forest_model.joblib")
